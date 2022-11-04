@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <ul>
+        <ul id="linkList">
             <li><a href="#">Link One</a></li>
             <li><a href="#">Link Two</a></li>
             <li><a href="#dataCapture">Contact Link</a></li>
@@ -22,10 +22,10 @@
         <section>
             <p>This is the meat of the page with a paragraph and image.</p>
             <figure>
-                <img src="./assets/images/fake_logo.jpg" alt="Fake company's logo">
+                <img id="logo" src="./assets/images/fake_logo.jpg" alt="Fake company's logo">
                 <figcaption>This company's logo</figcaption>
             </figure>
-            <form id="dataCapture" name="dataCapture">
+            <form class="dataForm" name="dataCapture">
                 <label for="nameField">What is your name?</label>
                 <input id="nameField" type="text">
                 <label for="emailField">What is your email?</label>
