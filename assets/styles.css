@@ -4,9 +4,10 @@
 }
 
 main {
+    position: relative;
     margin: 0 auto;
     padding-top: 15vh;
-    height: 80vh;
+    height: 150vh;
     width: 90%;
     background-color: rgb(212, 223, 245);
 }
@@ -45,6 +46,8 @@ li {
 }
 
 .dataForm {
+    position: absolute;
+    bottom: 0;
     width: 80%;
     margin: 0 auto;
 }
